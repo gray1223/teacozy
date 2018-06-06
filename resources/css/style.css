@@ -19,6 +19,7 @@ header  {
   border-bottom: 1px solid seashell;
   position: fixed;
   width: 100%;
+  background-color: black;
 }
 
 nav {
