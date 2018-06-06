@@ -6,6 +6,10 @@ html {
   opacity: 0.9;
 }
 
+body {
+  margin: 0;
+}
+
 header img {
 
   margin: 10px 10px;
@@ -87,6 +91,7 @@ nav {
   flex-direction: column;
   position: relative;
   width: 100%;
+  padding-top: 50px;
 }
 
 #teas {
@@ -98,6 +103,7 @@ nav {
 #teas {
   display: inline-flex;
   flex-direction: row;
+  width: 1000px;
 }
 
 .tea img {
