@@ -24,6 +24,7 @@ header  {
   position: fixed;
   width: 100%;
   background-color: black;
+  z-index: 999;
 }
 
 nav {
@@ -127,4 +128,32 @@ nav {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+#container3 {
+  margin-top: 100px;
+  display: inline-flex;
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  text-align: center;
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.location {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  justify-content: center;
+  margin: 0 20px;
+  background-color: black;
+}
+
+#locationdiv {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 auto;
 }
