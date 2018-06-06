@@ -27,7 +27,7 @@ nav {
   color: white;
 }
 
-ul li {
+nav li {
   display: inline-flex;
   align
   color: white;
@@ -38,6 +38,37 @@ ul li {
   text-decoration: underline;
 }
 
-ul {
+nav {
   color: white;
+}
+
+#container1 {
+  height: 700px;
+  width: 1200px;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#titlebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+#titlebar h2 {
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+}
+
+#titlebar h4 {
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
 }
