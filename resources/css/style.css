@@ -131,7 +131,7 @@ nav {
 }
 
 #container3 {
-  margin-top: 100px;
+  margin-top: 75px;
   display: inline-flex;
   background-position: center;
   width: 100%;
@@ -155,5 +155,18 @@ nav {
 #locationdiv {
   display: inline-flex;
   justify-content: center;
-  margin: 0 auto;
+}
+
+.location h5 {
+  font-weight: normal;
+}
+
+#container4 {
+  height: 200px;
+  text-align: center;
+}
+
+#cc {
+  text-align: left;
+  margin-left: 20px;
 }
