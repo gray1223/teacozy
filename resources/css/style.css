@@ -1,0 +1,43 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header img {
+
+  margin: 10px 10px;
+  height: 50px;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+header  {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  float: right;
+  list-style: none;
+  color: white;
+}
+
+ul li {
+  display: inline-flex;
+  align
+  color: white;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  margin: auto 40px;
+  text-decoration: underline;
+}
+
+ul {
+  color: white;
+}
