@@ -82,12 +82,21 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 1000px;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
 }
 
 #teas {
   display: inline-block;
   flex-wrap: wrap;
 
+}
+
+#teas {
+  display: inline-flex;
+  flex-direction: row;
 }
 
 .tea img {
@@ -99,7 +108,13 @@ nav {
 
 }
 
+.tea {
+  text-align: center;
+  margin: 10px 10px;
+}
+
 .twowords  {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
